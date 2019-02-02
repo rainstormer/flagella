@@ -1,0 +1,29 @@
+/* A web presentation for Flagella Hotels GmbH u. Co. KG, Beelitz-Heilstaetten. Made by Taller, A.D. 2019 */
+
+body {
+	background-color: black;
+	}
+
+h1 {
+	color: #afafaf;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Playfair Display";
+	letter-spacing: 0.5rem;
+	}
+
+h2 {
+	color: #afafaf;
+	font-family: "Playfair Display";
+	}
+
+ul {
+	color: #afafaf;
+	font-family: "Alice";
+	letter-spacing: 0.1rem;
+	list-style-type: none;
+	}
+
+p {
+	color: #afafaf;
+	}
