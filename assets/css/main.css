@@ -2,6 +2,7 @@
 
 body {
 	background-color: black;
+	margin: 0;
 	}
 
 h1 {
@@ -20,10 +21,77 @@ h2 {
 ul {
 	color: #afafaf;
 	font-family: "Alice";
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.2rem;
 	list-style-type: none;
 	}
 
 p {
 	color: #afafaf;
 	}
+
+a {
+	color: #afafaf;
+	text-decoration: none;
+	}
+
+table {
+	color: #afafaf;
+	border: 2px solid #afafaf;
+	padding: 15px;
+	border-spacing: 20px;
+	}
+
+footer {
+	font-size: 0.8rem;
+	color: #000000;
+	background: #ffffff;
+	text-align: center;
+	}
+
+
+
+.special-list {
+	color: #adadad;
+	text-align: center;
+	}
+
+
+.char-photo {
+	border-radius: 50%;
+	width: 7%;
+	height: 7%;
+	}
+
+.pricing {
+	color: #afafaf;
+	text-align: center;
+	}
+
+
+.contact {
+	color: #afafaf;
+	text-align: center;
+	}
+
+
+	
+
+/* Temporary styles for testing purposes - delete all of this in the final version. Including this comment, being as useless as it is, it longs for oblivion anyway. */
+
+
+section {
+	background: #ff0000;
+	}
+
+
+ul {
+	background: #00aa00;
+	}
+
+
+.special-list {
+	background: #0000ff;
+	}
+
+
+/* Delete til here and no further. Nevahmoar. */
