@@ -3,6 +3,7 @@
 body {
 	background-color: black;
 	margin: 0;
+	padding: 0;
 	}
 
 h1 {
@@ -27,6 +28,7 @@ ul {
 
 p {
 	color: #afafaf;
+	font-family: "Alice";
 	}
 
 a {
@@ -49,18 +51,94 @@ footer {
 	}
 
 
+/* CSS for staff table begins here */
 
-.special-list {
+.chars-column {
+	float: left;
+	width: 32%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+	}
+
+.chars-photo {
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
+	}
+
+
+/* CSS for pricing tables begins here */
+
+.pricing-wrapper {
+	font-family: "Alice";
+	text-align: center;
+	margin-top: 2rem;
+	}
+
+.pricing-table {
+	display: inline-block;
+	border: 1px solid rgb(255,170,0);
+	border-radius: 3%;
+	background: #4c4c4c;
+	margin: 0.3em;
+	color: #ff9900;
+	}
+
+.pricing-table__header {
+	font-size: 1.25em;
+	padding: 0.3em;
+	color: #ff9900;
+	background: #212121;
+	font-family: "Playfair Display"; 
+	}
+
+.pricing-table__price {	
+	font-size: 1.75em;
+	color: white;
+	font-family: "Playfair Display";
+	}
+
+.pricing-table__button {
+	display: block;
+	background: #ff9900;
+	color: #212121;
+	}
+
+.pricing-table__more {
+	display: block;
+	background: #cc7a00;
+	color: #212121;
+	}
+
+.pricing-table__list li {
+	color: #ff9900;
+	border-bottom: 1px solid #cc7a00;
+	margin: 0.5em;
+	}
+
+/* Special List CSS begins here */
+
+.special-list-wrapper {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	color: #adadad;
 	text-align: center;
+	background-image: linear-gradient(45deg, rgba(120,120,120,0.5), rgba(120,120,120,0));
+	width: 33%;
 	}
 
-
-.char-photo {
-	border-radius: 50%;
-	width: 7%;
-	height: 7%;
+.special-list-left {
+	text-align: left;
 	}
+
+.special-list-right {
+	text-align: right;
+	}
+ 
+/* Wildlands of miscellaneous */
+
+
 
 .pricing {
 	color: #afafaf;
@@ -73,6 +151,20 @@ footer {
 	text-align: center;
 	}
 
+.top-menu {
+	text-align: center;
+	}
+	
+.top-menu li {
+	display: inline;
+	text-transform: uppercase;
+	}
+
+.top-menu a:hover {
+	color: white;
+	}
+
+
 
 	
 
@@ -84,14 +176,23 @@ section {
 	}
 
 
-ul {
-	background: #00aa00;
+#our-resorts ul {
+	background: #ddeeff;
 	}
 
 
-.special-list {
+/* .special-list {
 	background: #0000ff;
+	} */
+
+.chars-card {
+	background: #ff00ff;
 	}
+
+.pricing-weapper {
+	background: #565656;
+	{
 
 
 /* Delete til here and no further. Nevahmoar. */
+/* Not that you even could, haha */
