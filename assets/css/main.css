@@ -30,12 +30,6 @@
      color: #afafaf;
      text-decoration: none;
 }
- table {
-     color: #afafaf;
-     border: 2px solid #afafaf;
-     padding: 15px;
-     border-spacing: 20px;
-}
  footer {
      font-size: 0.8rem;
      color: #000000;
@@ -47,8 +41,6 @@
  .chars__column {
      float: left;
      width: 32%;
-     margin-bottom: 16px;
-     padding: 0 8px;
 }
  .chars__img-container {
      width: 10em; 
@@ -81,7 +73,6 @@
  .pricing-table {
      display: inline-block;
      border: 1px solid rgb(255,170,0);
-     border-radius: 10px;
      background: #4c4c4c;
      margin: 0.5em;
      color: #ff9900;
@@ -104,7 +95,6 @@
      height: 11.25em;
      margin-left: auto;
      margin-right: auto;
-     box-shadow: 0px 0px 9px 6px rgba(255, 170, 0, 0.5);
 }
  .pricing-table__button {
      display: block;
@@ -129,7 +119,6 @@
      color: #adadad;
      background-image: linear-gradient(45deg, rgba(120,120,120,0.7), rgba(120,120,120,0));
      width: 33%;
-     border-radius: 10px;
 }
  .special-list--left {
      text-align: left;
