@@ -1,231 +1,183 @@
 /* A web presentation for Flagella Hotels GmbH u. Co. KG, Beelitz-Heilstaetten. Made by Taller, A.D. 2019 */
-
-body {
-	background-color: black;
-	margin: 0;
-	padding: 0;
-	}
-
-h1 {
-	color: #afafaf;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: "Playfair Display";
-	letter-spacing: 0.5rem;
-	}
-
-h2 {
-	color: #afafaf;
-	font-family: "Playfair Display";
-	}
-
-ul {
-	color: #afafaf;
-	font-family: "Alice";
-	letter-spacing: 0.2rem;
-	list-style-type: none;
-	}
-
-p {
-	color: #afafaf;
-	font-family: "Alice";
-	}
-
-a {
-	color: #afafaf;
-	text-decoration: none;
-	}
-
-table {
-	color: #afafaf;
-	border: 2px solid #afafaf;
-	padding: 15px;
-	border-spacing: 20px;
-	}
-
-footer {
-	font-size: 0.8rem;
-	color: #000000;
-	background: #ffffff;
-	text-align: center;
-	}
-
-
-/* CSS for staff table begins here */
-
-.chars__column {
-	float: left;
-	width: 32%;
-	margin-bottom: 16px;
-	padding: 0 8px;
-	}
-
-.chars__img-container {
-	border-radius: 50%;
-	width: 10em;
-	}
-
-.chars__photo {
-	width: 100%;
-	}
-
-.chars__name {
-	font-family: "Playfair Display";
-	font-size: 1.5em;
-	color: #afafaf;
-	}
-
-.chars__card-title {
-	font-family: "Playfair Display";
-	font-size: 1.25em;
-	color: #cc7a00;
-	}
-
-.chars__card-text {
-	font-family: "Alice";
-	line-height: 1.5em;
-	color: #ff9900;
-	}
-
-/* CSS for pricing tables begins here */
-
-.pricing-wrapper {
-	font-family: "Alice";
-	text-align: center;
-	margin-top: 2rem;
-	}
-
-.pricing-table {
-	display: inline-block;
-	border: 1px solid rgb(255,170,0);
-	border-radius: 10px;
-	background: #4c4c4c;
-	margin: 0.5em;
-	color: #ff9900;
-	}
-
-.pricing-table__header {
-	font-size: 1.25em;
-	padding: 0.3em;
-	color: #ff9900;
-	background: #212121;
-	font-family: "Playfair Display"; 
-	}
-
-.pricing-table__price {	
-	font-size: 1.75em;
-	color: white;
-	font-family: "Playfair Display";
-	}
-
-.pricing-table__img-container {
-	display: block;
-	width: 20em;
-	height: 15em;
-	margin-left: auto;
-	margin-right: auto;
-	box-shadow: 0px 0px 9px 6px rgba(255, 170, 0, 0.5);
+ body {
+     background-color: black;
+     margin: 0;
+     padding: 0;
 }
-
-.pricing-table__button {
-	display: block;
-	background: #ff9900;
-	color: #212121;
-	}
-
-.pricing-table__more {
-	display: block;
-	background: #cc7a00;
-	color: #212121;
-	}
-
-.pricing-table__list li {
-	color: #ff9900;
-	border-bottom: 1px solid #cc7a00;
-	margin: 0.5em;
-	}
-
+ h1 {
+     color: #afafaf;
+     text-align: center;
+     text-transform: uppercase;
+     font-family: "Playfair Display";
+     letter-spacing: 0.5rem;
+}
+ h2 {
+     color: #afafaf;
+     font-family: "Playfair Display";
+}
+ ul {
+     color: #afafaf;
+     font-family: "Alice";
+     letter-spacing: 0.2rem;
+     list-style-type: none;
+}
+ p {
+     color: #afafaf;
+     font-family: "Alice";
+}
+ a {
+     color: #afafaf;
+     text-decoration: none;
+}
+ table {
+     color: #afafaf;
+     border: 2px solid #afafaf;
+     padding: 15px;
+     border-spacing: 20px;
+}
+ footer {
+     font-size: 0.8rem;
+     color: #000000;
+     background: #ffffff;
+     text-align: center;
+}
+/* CSS for staff table begins here */
+ .chars__column {
+     float: left;
+     width: 32%;
+     margin-bottom: 16px;
+     padding: 0 8px;
+}
+ .chars__img-container {
+     border-radius: 50%;
+     width: 10em;
+}
+ .chars__photo {
+     width: 100%;
+}
+ .chars__name {
+     font-family: "Playfair Display";
+     font-size: 1.5em;
+     color: #afafaf;
+}
+ .chars__card-title {
+     font-family: "Playfair Display";
+     font-size: 1.25em;
+     color: #cc7a00;
+}
+ .chars__card-text {
+     font-family: "Alice";
+     line-height: 1.5em;
+     color: #ff9900;
+}
+/* CSS for pricing tables begins here */
+ .pricing-wrapper {
+     font-family: "Alice";
+     text-align: center;
+     margin-top: 2rem;
+}
+ .pricing-table {
+     display: inline-block;
+     border: 1px solid rgb(255,170,0);
+     border-radius: 10px;
+     background: #4c4c4c;
+     margin: 0.5em;
+     color: #ff9900;
+}
+ .pricing-table__header {
+     font-size: 1.25em;
+     padding: 0.3em;
+     color: #ff9900;
+     background: #212121;
+     font-family: "Playfair Display";
+}
+ .pricing-table__price {
+     font-size: 1.75em;
+     color: white;
+     font-family: "Playfair Display";
+}
+ .pricing-table__img-container {
+     display: block;
+     width: 20em;
+     height: 15em;
+     margin-left: auto;
+     margin-right: auto;
+     box-shadow: 0px 0px 9px 6px rgba(255, 170, 0, 0.5);
+}
+ .pricing-table__button {
+     display: block;
+     background: #ff9900;
+     color: #212121;
+}
+ .pricing-table__more {
+     display: block;
+     background: #cc7a00;
+     color: #212121;
+}
+ .pricing-table__list li {
+     color: #ff9900;
+     border-bottom: 1px solid #cc7a00;
+     margin: 0.5em;
+}
 /* Special List CSS begins here */
-
-.special-list-wrapper {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	color: #adadad;
-	background-image: linear-gradient(45deg, rgba(120,120,120,0.7), rgba(120,120,120,0));
-	width: 33%;
-	border-radius: 10px;
-	}
-
-.special-list--left {
-	text-align: left;
-	padding: 0.75em;
-	letter-spacing: 0.2em;
-	}
-
-.special-list--right {
-	text-align: right;
-	padding: 0.75em;
-	letter-spacing: 0.2em;
-	}
-
-
+ .special-list-wrapper {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     color: #adadad;
+     background-image: linear-gradient(45deg, rgba(120,120,120,0.7), rgba(120,120,120,0));
+     width: 33%;
+     border-radius: 10px;
+}
+ .special-list--left {
+     text-align: left;
+     padding: 0.75em;
+     letter-spacing: 0.2em;
+}
+ .special-list--right {
+     text-align: right;
+     padding: 0.75em;
+     letter-spacing: 0.2em;
+}
 /* Other Employees CSS begins here */
-
-.others-wrapper {}
-.others__entry {}
-.others__name {}
-.others__role {}
-
+ .others-wrapper {
+}
+ .others__entry {
+}
+ .others__name {
+}
+ .others__role {
+}
 /* Wildlands of miscellaneous */
-
-.contact {
-	color: #afafaf;
-	text-align: center;
-	}
-
-.top-menu {
-	text-align: center;
-	}
-	
-.top-menu li {
-	display: inline;
-	text-transform: uppercase;
-	}
-
-.top-menu a:hover {
-	color: white;
-	}
-
-
-
-	
-
-/* Temporary styles for testing purposes - delete all of this in the final version. Including this comment, being as useless as it is, it longs for oblivion anyway.
-
-
-section {
-	background: #ff0000;
-	}
-
-
-#our-resorts ul {
-	background: #ddeeff;
-	}
-
-
-.special-list {
-	background: #0000ff;
-	} 
-
-.chars-card {
-	background: #ff00ff;
-	}
-
-.pricing-weapper {
-	background: #565656;
-	{
-
-
-/* Delete til here and no further. Nevahmoar. */
-/* Not that you even could, haha */
+ .contact {
+     color: #afafaf;
+     text-align: center;
+}
+ .top-menu {
+     text-align: center;
+}
+ .top-menu li {
+     display: inline;
+     text-transform: uppercase;
+}
+ .top-menu a:hover {
+     color: white;
+}
+/* Temporary styles for testing purposes - delete all of this in the final version. Including this comment, being as useless as it is, it longs for oblivion anyway. section {
+     background: #ff0000;
+}
+ #our-resorts ul {
+     background: #ddeeff;
+}
+ .special-list {
+     background: #0000ff;
+}
+ .chars-card {
+     background: #ff00ff;
+}
+ .pricing-weapper {
+     background: #565656;
+     {
+        /* Delete til here and no further. Nevahmoar. */
+        /* Not that you even could, haha */
+        
