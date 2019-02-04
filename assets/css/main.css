@@ -3,6 +3,8 @@
      --main-bg-color: #000000;
      --secondary-color: #ff6600;
      --tertiary-color: #cccccc;
+     --heading-font: "Archivo Black";
+     --paragraph-font: "Merriweather";
 }
 
  body {
@@ -13,28 +15,28 @@
  h1 {
      color: var(--tertiary-color, #cccccc);
      text-transform: uppercase;
-     font-family: "Playfair Display";
-     font-weight: 700;
+     font-family: var(--heading-font, sans-serif);
      letter-spacing: 0.5rem;
      font-size: 3em;
 }
  h2 {
      color: var(--tertiary-color, #cccccc);
-     font-family: "Playfair Display";
+     font-family: var(--heading-font, sans-serif);
 }
  ul {
      color: var(--tertiary-color, #cccccc);
-     font-family: "Alice";
+     font-family: var(--paragraph-font, serif);
      letter-spacing: 0.2rem;
      list-style-type: none;
 }
  p {
      color: var(--tertiary-color, #cccccc);
-     font-family: "Alice";
+     font-family: var(--paragraph-font, serif);
 }
  a {
      color: var(--tertiary-color, #cccccc);
      text-decoration: none;
+     font-family: var(--paragraph-font, serif);
 }
  footer {
      font-size: 0.8rem;
@@ -50,7 +52,8 @@
 }
  .chars__column {
      float: left;
-     width: 32%;
+     width: 33.3%;
+     overflow: hidden;
 }
  .chars__img-container {
      width: 10em; 
@@ -60,23 +63,24 @@
      border-radius: 5em;
 }
  .chars__name {
-     font-family: "Playfair Display";
+     font-family: var(--heading-font, sans-serif);
      font-size: 1.5em;
      color: var(--tertiary-color, #cccccc);
 }
  .chars__card-title {
-     font-family: "Playfair Display";
+     font-family: var(--heading-font, sans-serif);
      font-size: 1.25em;
      color: var(--secondary-color, #ff6600);
 }
  .chars__card-text {
-     font-family: "Alice";
+     font-family: var(--paragraph-font, serif);
      line-height: 1.5em;
      color: var(--secondary-color, #ff6600);
 }
+
 /* CSS for pricing tables begins here */
  .pricing-wrapper {
-     font-family: "Alice";
+     font-family: var(--paragraph-font, serif);
      text-align: center;
      margin-top: 2rem;
 }
@@ -90,12 +94,12 @@
      font-size: 1.25em;
      padding: 0.3em;
      color: var(--secondary-color, #ff6600);
-     font-family: "Playfair Display";
+     font-family: var(--heading-font, sans-serif);
 }
  .pricing-table__price {
      font-size: 1.75em;
      color: var(--secondary-color, #ff6600);
-     font-family: "Playfair Display";
+     font-family: var(--heading-font, sans-serif);
 }
  .pricing-table__img-container {
      display: block;
@@ -163,8 +167,9 @@
      color: white;
 }
  .logo {
-     width: 40em;
+     width: 50em;
      margin: 3em auto;
+     text-align: center;
 }
 
 /* Temporary styles for testing purposes - delete all of this in the final version. Including this comment, being as useless as it is, it longs for oblivion anyway. section {
