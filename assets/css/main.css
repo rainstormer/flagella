@@ -1,11 +1,17 @@
 /* A web presentation for Flagella Hotels GmbH u. Co. KG, Beelitz-Heilstaetten. Made by Taller, A.D. 2019 */
+ :root {
+     --main-bg-color: #000000;
+     --secondary-color: #ff6600;
+     --tertiary-color: #cccccc;
+}
+
  body {
-     background-color: black;
+     background-color: var(--main-bg-color, black);
      margin: 0;
      padding: 0;
 }
  h1 {
-     color: #afafaf;
+     color: var(--tertiary-color, #cccccc);
      text-transform: uppercase;
      font-family: "Playfair Display";
      font-weight: 700;
@@ -13,31 +19,35 @@
      font-size: 3em;
 }
  h2 {
-     color: #afafaf;
+     color: var(--tertiary-color, #cccccc);
      font-family: "Playfair Display";
 }
  ul {
-     color: #afafaf;
+     color: var(--tertiary-color, #cccccc);
      font-family: "Alice";
      letter-spacing: 0.2rem;
      list-style-type: none;
 }
  p {
-     color: #afafaf;
+     color: var(--tertiary-color, #cccccc);
      font-family: "Alice";
 }
  a {
-     color: #afafaf;
+     color: var(--tertiary-color, #cccccc);
      text-decoration: none;
 }
  footer {
      font-size: 0.8rem;
      color: #000000;
-     background: #ffffff;
+     background: var(--secondary-color, #ff6600);;
      text-align: center;
 }
 
 /* CSS for staff table begins here */
+ .chars__wrapper {
+      background-color: var(--main-bg-color, #000000);
+      color: var(--secondary-color, #ff6600);
+}
  .chars__column {
      float: left;
      width: 32%;
@@ -52,17 +62,17 @@
  .chars__name {
      font-family: "Playfair Display";
      font-size: 1.5em;
-     color: #afafaf;
+     color: var(--tertiary-color, #cccccc);
 }
  .chars__card-title {
      font-family: "Playfair Display";
      font-size: 1.25em;
-     color: #cc7a00;
+     color: var(--secondary-color, #ff6600);
 }
  .chars__card-text {
      font-family: "Alice";
      line-height: 1.5em;
-     color: #ff9900;
+     color: var(--secondary-color, #ff6600);
 }
 /* CSS for pricing tables begins here */
  .pricing-wrapper {
@@ -73,20 +83,18 @@
  .pricing-table {
      display: inline-block;
      border: 1px solid rgb(255,170,0);
-     background: #4c4c4c;
      margin: 0.5em;
-     color: #ff9900;
+     color: var(--secondary-color, #ff6600);
 }
  .pricing-table__header {
      font-size: 1.25em;
      padding: 0.3em;
-     color: #ff9900;
-     background: #212121;
+     color: var(--secondary-color, #ff6600);
      font-family: "Playfair Display";
 }
  .pricing-table__price {
      font-size: 1.75em;
-     color: white;
+     color: var(--secondary-color, #ff6600);
      font-family: "Playfair Display";
 }
  .pricing-table__img-container {
@@ -98,17 +106,17 @@
 }
  .pricing-table__button {
      display: block;
-     background: #ff9900;
+     background: var(--secondary-color, #ff6600);
      color: #212121;
 }
  .pricing-table__more {
      display: block;
-     background: #cc7a00;
+     background: var(--tertiary-color, #cccccc);
      color: #212121;
 }
  .pricing-table__list li {
-     color: #ff9900;
-     border-bottom: 1px solid #cc7a00;
+     color: var(--secondary-color, #ff6600);
+     border-bottom: 1px solid var(--secondary-color, #ff6600);
      margin: 0.5em;
 }
 /* Special List CSS begins here */
@@ -116,7 +124,7 @@
      display: block;
      margin-left: auto;
      margin-right: auto;
-     color: #adadad;
+     color: var(--tertiary-color, #cccccc);
      background-image: linear-gradient(45deg, rgba(120,120,120,0.7), rgba(120,120,120,0));
      width: 33%;
 }
@@ -141,7 +149,7 @@
 }
 /* Wildlands of miscellaneous */
  .contact {
-     color: #afafaf;
+     color: var(--tertiary-color, #cccccc);
      text-align: center;
 }
  .top-menu {
