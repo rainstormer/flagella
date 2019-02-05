@@ -50,18 +50,65 @@
 }
 
 /* CSS for title articles begins here */
+
+ .title-article {
+     width: 80%;
+     margin: 2.75em 2em;
+}
  .title-article__text {
      color: var(--tertiary-color, #cccccc);
      font-family: var(--paragraph-font, serif);
-     line-height: 1.05em;
+     line-height: 1.375em;
+     max-width: 70ch;
 }
  .title-article__heading {
      color: var(--tertiary-color, #cccccc);
      font-family: var(--heading-font, sans-serif);
      font-size: 2.25rem;
      line-height: 1.25;
+     font-weight: 200;
+     letter-spacing: 0.25;
 }
- 
+
+/* CSS for references begins here */
+ .title-article-x {
+     background-color: aqua;
+     width: 80%;
+     margin: 1em auto;
+}
+ .refs__header {
+     background-color: red;
+     width: 80%;
+     margin: 1em auto;
+}
+ .refs__row {
+     background-color: blue;
+     width: 80%;
+     margin: 0 auto 3em auto;
+     text-align: center;
+}
+ .refs__card {
+     background-color: green;
+     margin: 15px;
+}
+ .refs__text--work {
+     background-color: yellow;
+     margin: 0 2em;
+     line-height: 1.5;
+}
+ .refs__text--testament {
+     background-color: brown;
+     margin: 0 2em;
+     line-height: 1.5;
+}
+ .refs__text--source {
+     font-style: italic;
+}
+ .refs__diamond {
+     background-color: silver;
+     margin: 0 2em;
+     line-height: 1.5;
+} 
 
 /* CSS for staff table begins here */
  .chars__wrapper {
@@ -74,21 +121,25 @@
      overflow: hidden;
 }
  .chars__img-container {
-     width: 10em; 
+     width: 7.5em; 
 }
  .chars__photo {
      width: 100%;
-     border-radius: 5em;
+     border-radius: 3.75em;
 }
  .chars__name {
      font-family: var(--heading-font, sans-serif);
-     font-size: 1.5em;
-     color: var(--tertiary-color, #cccccc);
+     font-size: 1.75em;
+     line-height: 1.125em;
+     color: var(--secondary-color, #ff6600);
+     font-weight: 200;
 }
  .chars__card-title {
      font-family: var(--heading-font, sans-serif);
-     font-size: 1.25em;
-     color: var(--secondary-color, #ff6600);
+     font-size: 1.125em;
+     line-height: 1.222em;
+     color: var(--tertiary-color, #cccccc);
+     font-weight: 200;
 }
  .chars__card-text {
      font-family: var(--paragraph-font, serif);
@@ -100,12 +151,12 @@
  .pricing-wrapper {
      font-family: var(--paragraph-font, serif);
      text-align: center;
-     margin-top: 2rem;
+     width: 80%;
+     margin: 0 auto 3em auto;
 }
  .pricing-table {
      display: inline-block;
      border: 1px solid rgb(255,170,0);
-     margin: 0.5em;
      color: var(--secondary-color, #ff6600);
 }
  .pricing-table__header {
@@ -169,16 +220,23 @@
      background-color: #0000ff;
 }
 
-/* Other Employees CSS begins here  - TO BE ACTIVATED LATER
- .others-wrapper {
+/* Other Employees CSS begins here  - TO BE ACTIVATED LATER */
+ .belt-wrapper {
+     text-transform: uppercase;
+     color: var(--tertiary-color, #cccccc);
 }
- .others__entry {
+ .belt__list {
+     list-style-type: none;
 }
- .others__name {
+ .belt__name {
+     letter-spacing: 0.375em;
+     display: inline;
 }
- .others__role {
+ .belt__role {
+     letter-spacing: 0;
+     text-transform: none;
 }
-*/
+
 
 /* Temporary styles for testing purposes - delete all of this in the final version.
 
