@@ -15,12 +15,6 @@
  #main__body a {
      text-decoration: none;
 }
- #main__footer {
-     font-size: 0.8rem;
-     color: #000000;
-     background: var(--secondary-color, #ff6600);;
-     text-align: center;
-}
 
 /* CSS for header begins here */
  .header__top-menu {
@@ -31,13 +25,16 @@
      text-align: center;
      color: var(--tertiary-color, #cccccc);
 }
- .header__top-menu ul {
+ .top-menu__itemlist {
      list-style-type: none;
 }
- .header__top-menu li {
+ .top-menu__item {
      display: inline;
 }
- .header__top-menu a:hover {
+ .tmenu-link {
+     color: var(--tertiary-color, #cccccc);
+}
+ .tmenu-link:hover {
      color: white;
 }
  .header__logo {
@@ -91,17 +88,17 @@
      background-color: green;
      margin: 15px;
 }
- .refs__text--work {
+ .refs__experience {
      background-color: yellow;
      margin: 0 2em;
      line-height: 1.5;
 }
- .refs__text--testament {
+ .refs__testament {
      background-color: brown;
      margin: 0 2em;
      line-height: 1.5;
 }
- .refs__text--source {
+ .refs__source {
      font-style: italic;
 }
  .refs__diamond {
@@ -148,20 +145,20 @@
 }
 
 /* CSS for pricing tables begins here */
- .pricing-wrapper {
+ .pricing {
      font-family: var(--paragraph-font, serif);
      text-align: center;
      width: 80%;
      margin: 0 auto 3em auto;
 }
- .pricing-table {
-     display: inline-block;
-     border: 1px solid rgb(255,170,0);
+ .pricing__table {
+     float: left;
+     width: 33.3%;
+     overflow: hidden;
      color: var(--secondary-color, #ff6600);
 }
  .pricing-table__header {
      font-size: 1.25em;
-     padding: 0.3em;
      color: var(--secondary-color, #ff6600);
      font-family: var(--heading-font, sans-serif);
 }
@@ -187,11 +184,15 @@
      background: var(--tertiary-color, #cccccc);
      color: #212121;
 }
- .pricing-table__list li {
+ .pricing-table__list {
+     list-style-type: none;
+}
+ .pricing-table__point {
      color: var(--secondary-color, #ff6600);
      border-bottom: 1px solid var(--secondary-color, #ff6600);
-     margin: 0.5em;
 }
+
+
 /* Special List CSS begins here */
  .special-list-wrapper {
      display: block;
@@ -214,10 +215,12 @@
 
 /* Clearfix */
  .clearfix::after {
-     content: "Testovaci hovno";
+     content: "";
      clear: both;
      display: table;
      background-color: #0000ff;
+     line-height: 0;
+     height: 0;
 }
 
 /* Other Employees CSS begins here  - TO BE ACTIVATED LATER */
@@ -237,6 +240,12 @@
      text-transform: none;
 }
 
+ #main__footer {
+     font-size: 1rem;
+     color: #000000;
+     background: var(--secondary-color, #ff6600);
+     text-align: center;
+}
 
 /* Temporary styles for testing purposes - delete all of this in the final version.
 
