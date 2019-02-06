@@ -97,32 +97,19 @@
      
 
 /* CSS for references begins here */
- .title-article-x {
-     background-color: aqua;
-     margin: 1em auto;
-}
- .refs__header {
-     background-color: red;
-     width: 80%;
-     margin: 1em auto;
-}
  .refs__row {
-     background-color: blue;
-     width: 80%;
      margin: 0 auto 3em auto;
      text-align: center;
 }
- .refs__card {
-     background-color: green;
-     margin: 15px;
-}
  .refs__experience {
-     background-color: yellow;
+     font-size: 1.25rem;
+     color: var(--secondary-color, #ff6600);
      margin: 0 2em;
-     line-height: 1.5;
+     line-height: 1.25;
+     font-weight: bold;
 }
  .refs__testament {
-     background-color: brown;
+     color: var(--tertiary-color, #cccccc);
      margin: 0 2em;
      line-height: 1.5;
 }
@@ -130,9 +117,9 @@
      font-style: italic;
 }
  .refs__diamond {
-     background-color: silver;
+     font-size: 3rem;
+     color: var(--tertiary-color, #cccccc);
      margin: 0 2em;
-     line-height: 1.5;
 } 
 
 /* CSS for staff table begins here */
