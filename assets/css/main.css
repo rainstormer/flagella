@@ -74,6 +74,10 @@
      font-weight: 200;
      letter-spacing: 0.25;
 }
+ .title-article__lead-bullet {
+     font-weight: 700;
+     color: var(--secondary-color, #ff6600);
+}
 
 /* CSS for resort list begins here */
  .resorts {
