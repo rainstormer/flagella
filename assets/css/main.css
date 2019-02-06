@@ -56,15 +56,15 @@
 }
 
 /* CSS for title articles begins here */
-
  .title-article {
-     margin: 2.75em 0;
+     margin: 0 0 4em 0;
 }
  .title-article__text {
      color: var(--tertiary-color, #cccccc);
      font-family: var(--paragraph-font, serif);
      line-height: 1.375em;
      max-width: 80ch;
+     margin: 0 0 2em 0;
 }
  .title-article__heading {
      color: var(--tertiary-color, #cccccc);
@@ -157,6 +157,12 @@
      font-family: var(--paragraph-font, serif);
      line-height: 1.5em;
      color: var(--secondary-color, #ff6600);
+     width: 90%;
+}
+ .chars__card-button {
+     background-color: var(--secondary-color, #ff6600);
+     border: 0;
+     color: black;
 }
 
 /* CSS for pricing tables begins here */
@@ -217,26 +223,6 @@
      font-weight: bold;
 }
 
-/* Special List CSS begins here */
- .special-list-wrapper {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     color: var(--tertiary-color, #cccccc);
-     background-image: linear-gradient(45deg, rgba(120,120,120,0.7), rgba(120,120,120,0));
-     width: 33%;
-}
- .special-list--left {
-     text-align: left;
-     padding: 0.75em;
-     letter-spacing: 0.2em;
-}
- .special-list--right {
-     text-align: right;
-     padding: 0.75em;
-     letter-spacing: 0.2em;
-}
-
 /* Clearfix */
  .clearfix::after {
      content: "";
@@ -247,20 +233,29 @@
      height: 0;
 }
 
-/* Other Employees CSS begins here  - TO BE ACTIVATED LATER */
+/* Other Employees CSS begins here */
  .belt-wrapper {
      text-transform: uppercase;
      color: var(--tertiary-color, #cccccc);
 }
  .belt__list {
      list-style-type: none;
+     padding: 0;
 }
  .belt__name {
      letter-spacing: 0.375em;
-     display: inline;
+     line-height: 1.5;
+     color: var(--secondary-color, #ff6600);
 }
  .belt__role {
      letter-spacing: 0;
+     text-transform: none;
+     color: var(--tertiary-color, #cccccc);
+}
+ .belt__heading {
+     font-family: var(--heading-font, sans-serif);
+     color: var(--tertiary-color, #cccccc);
+     font-size: 1.125rem;
      text-transform: none;
 }
 
