@@ -59,7 +59,7 @@
  .title-article {
      margin: 0 0 4em 0;
 }
- .title-article__text {
+ .title-article__body {
      color: var(--tertiary-color, #cccccc);
      font-family: var(--paragraph-font, serif);
      line-height: 1.375em;
@@ -156,7 +156,7 @@
      color: var(--tertiary-color, #cccccc);
      font-weight: 200;
 }
- .chars__card-text {
+ .chars__card-body {
      font-family: var(--paragraph-font, serif);
      line-height: 1.5em;
      color: var(--secondary-color, #ff6600);
