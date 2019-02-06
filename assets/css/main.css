@@ -163,7 +163,6 @@
  .pricing {
      font-family: var(--paragraph-font, serif);
      text-align: center;
-     width: 80%;
      margin: 0 auto 3em auto;
 }
  .pricing__table {
@@ -184,8 +183,8 @@
 }
  .pricing-table__img-container {
      display: block;
-     width: 20em;
-     height: 11.25em;
+     width: 16em;
+     height: 9em;
      margin-left: auto;
      margin-right: auto;
 }
@@ -193,20 +192,30 @@
      display: block;
      background: var(--secondary-color, #ff6600);
      color: #212121;
+     width: 90%;
+     margin: 1em auto;
 }
  .pricing-table__more {
      display: block;
      background: var(--tertiary-color, #cccccc);
      color: #212121;
+     width: 90%;
+     margin: 1em auto;
 }
  .pricing-table__list {
      list-style-type: none;
+     padding: 0;
+     margin: 1em auto;
+     width: 90%;
 }
  .pricing-table__point {
      color: var(--secondary-color, #ff6600);
      border-bottom: 1px solid var(--secondary-color, #ff6600);
+     padding: 1em 0;
 }
-
+ .pricing-table__meter {
+     font-weight: bold;
+}
 
 /* Special List CSS begins here */
  .special-list-wrapper {
