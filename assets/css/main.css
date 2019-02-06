@@ -99,7 +99,6 @@
      color: white;
 }
      
-
 /* CSS for references begins here */
  .refs__row {
      margin: 0 auto 3em auto;
@@ -127,7 +126,7 @@
 } 
 
 /* CSS for staff table begins here */
- .chars__wrapper {
+ .chars {
       background-color: var(--main-bg-color, #000000);
       color: var(--secondary-color, #ff6600);
 }
@@ -232,13 +231,12 @@
      content: "";
      clear: both;
      display: table;
-     background-color: #0000ff;
      line-height: 0;
      height: 0;
 }
 
 /* Other Employees CSS begins here */
- .belt-wrapper {
+ .belt {
      text-transform: uppercase;
      color: var(--tertiary-color, #cccccc);
 }
@@ -263,28 +261,10 @@
      text-transform: none;
 }
 
+
  #main__footer {
      font-size: 1rem;
      color: #000000;
      background: var(--secondary-color, #ff6600);
      text-align: center;
 }
-
-/* Temporary styles for testing purposes - delete all of this in the final version.
-
-section {
-     background: #ff0000;
-}
- #our-resorts ul {
-     background: #ddeeff;
-}
- .special-list {
-     background: #0000ff;
-}
- .chars-card {
-     background: #ff00ff;
-}
- .pricing-weapper {
-     background: #565656;
-     {
-        
