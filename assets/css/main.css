@@ -11,9 +11,16 @@
      background-color: var(--main-bg-color, black);
      margin: 0;
      padding: 0;
+     text-align: center;
 }
  #main__body a {
      text-decoration: none;
+}
+
+ #main__wrapper {
+     width: 950px;
+     margin: 0 auto 3em auto;
+     text-align: left;
 }
 
 /* CSS for header begins here */
@@ -38,25 +45,26 @@
      color: white;
 }
  .header__logo {
+     font-size: 3rem;
      color: var(--secondary-color, #ff6600);
      text-transform: uppercase;
      font-family: var(--heading-font, sans-serif);
      letter-spacing: 0.25em;
-     font-size: 3rem;
+     line-height: 1.05em;
      text-align: center;
+     margin: 1.05em 0;
 }
 
 /* CSS for title articles begins here */
 
  .title-article {
-     width: 80%;
-     margin: 2.75em 2em;
+     margin: 2.75em 0;
 }
  .title-article__text {
      color: var(--tertiary-color, #cccccc);
      font-family: var(--paragraph-font, serif);
      line-height: 1.375em;
-     max-width: 70ch;
+     max-width: 80ch;
 }
  .title-article__heading {
      color: var(--tertiary-color, #cccccc);
@@ -67,10 +75,30 @@
      letter-spacing: 0.25;
 }
 
+/* CSS for resort list begins here */
+ .resorts {
+     width: 80%;
+}
+ .resorts__list {
+     list-style-type: none;
+     text-align: center;
+}
+ .resorts__item {
+     line-height: 2.25;
+}
+ .res-link {
+     font-size: 1.25rem;
+     color: var(--secondary-color, #ff6600);
+     font-family: var(--paragraph-font, serif);
+}
+ .res-link:hover {
+     color: white;
+}
+     
+
 /* CSS for references begins here */
  .title-article-x {
      background-color: aqua;
-     width: 80%;
      margin: 1em auto;
 }
  .refs__header {
