@@ -1,0 +1,45 @@
+ #main__header {
+
+}
+ #main__wrapper {
+
+}
+
+
+/*///////////////////////////
+//      Resort List        //
+///////////////////////////*/
+ .resort-list {
+
+}
+ .resort-list__entry {
+
+}
+ .entry__body {
+
+}
+ .entry__heading {
+
+}
+ .entry__img {
+
+}
+
+
+
+/*///////////////////////////
+//      TESTING            //
+///////////////////////////*/
+
+ .resort-list {
+     background-color: red;
+}
+ .resort-list__entry {
+     background-color: green;
+}
+ .entry__body {
+     background-color: blue;
+}
+ .entry__img {
+     background-color: cyan;
+}
